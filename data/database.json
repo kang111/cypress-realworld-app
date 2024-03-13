@@ -41,7 +41,7 @@
       "phoneNumber": "072-208-4283",
       "avatar": "https://cypress-realworld-app-svgs.s3.amazonaws.com/bDjUb4ir5O.svg",
       "defaultPrivacyLevel": "private",
-      "balance": 164867,
+      "balance": 150067,
       "createdAt": "2019-09-15T04:44:05.536Z",
       "modifiedAt": "2020-05-21T18:25:10.341Z"
     },
@@ -56,7 +56,7 @@
       "phoneNumber": "974-916-8746",
       "avatar": "https://cypress-realworld-app-svgs.s3.amazonaws.com/24VniajY1y.svg",
       "defaultPrivacyLevel": "private",
-      "balance": 145779,
+      "balance": 160579,
       "createdAt": "2020-03-06T02:15:42.584Z",
       "modifiedAt": "2020-05-21T09:25:42.974Z"
     },
@@ -9855,6 +9855,31 @@
       "requestResolvedAt": "",
       "createdAt": "2019-06-27T22:24:04.794Z",
       "modifiedAt": "2020-05-21T04:58:44.494Z"
+    },
+    {
+      "id": "-ZBgNh0sG",
+      "uuid": "e68bf769-51ca-48f0-9f78-e09e9b13c161",
+      "amount": 11100,
+      "description": "transaction one",
+      "receiverId": "t45AiwidW",
+      "senderId": "bDjUb4ir5O",
+      "privacyLevel": "private",
+      "status": "pending",
+      "requestStatus": "pending",
+      "createdAt": "2024-03-13T00:21:13.555Z",
+      "modifiedAt": "2024-03-13T00:21:13.556Z"
+    },
+    {
+      "id": "HAnvoxoiE",
+      "uuid": "1b90fbf0-48e9-4b9c-967e-ae7d1c82c90c",
+      "amount": 14800,
+      "description": "pay one",
+      "receiverId": "24VniajY1y",
+      "senderId": "bDjUb4ir5O",
+      "privacyLevel": "private",
+      "status": "complete",
+      "createdAt": "2024-03-13T00:23:14.360Z",
+      "modifiedAt": "2024-03-13T00:23:14.360Z"
     }
   ],
   "likes": [
@@ -10431,6 +10456,26 @@
       "isRead": false,
       "createdAt": "2019-10-19T20:50:49.292Z",
       "modifiedAt": "2020-05-21T21:00:50.192Z"
+    },
+    {
+      "id": "fJeX7XYmCm",
+      "uuid": "c9c40d96-f55b-4134-b488-4a9fbd2c369b",
+      "userId": "t45AiwidW",
+      "transactionId": "-ZBgNh0sG",
+      "status": "requested",
+      "isRead": false,
+      "createdAt": "2024-03-13T00:21:13.561Z",
+      "modifiedAt": "2024-03-13T00:21:13.561Z"
+    },
+    {
+      "id": "rMJ75oTf-o",
+      "uuid": "d8b7dc4e-d2f0-4fb5-9a85-5cda2063109f",
+      "userId": "24VniajY1y",
+      "transactionId": "HAnvoxoiE",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2024-03-13T00:23:14.376Z",
+      "modifiedAt": "2024-03-13T00:23:14.376Z"
     }
   ],
   "banktransfers": [
